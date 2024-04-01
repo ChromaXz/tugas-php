@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url('https://marketplace.canva.com/EAD5kl4L76Y/1/0/1600w/canva-background-idul-fitri-bunga-putih-emas-4b_zzEqWcpM.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #555;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+nav a.active {
+    background-color: #ddd;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles untuk halaman home */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.home h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.home p {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 600px;
+}
+
+/* Styles untuk halaman produk */
+.produk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.produk-item {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.produk-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.produk-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.produk-item p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Styles untuk halaman pesan */
+.pesan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.pesan h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.pesan p {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 600px;
+}
+
+/* Styles untuk halaman gesbuk */
+.gesbuk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.gesbuk h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.gesbuk p {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 600px;
+}
+
+.foto-utama {
+    max-width: 300px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.ulasan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.ulasan-item {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.ulasan-item p:first-child {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.ulasan-item p:last-child {
+    font-weight: bold;
+}
